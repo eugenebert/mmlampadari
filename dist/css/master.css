@@ -1,0 +1,276 @@
+body {
+    background-color: #353436;
+    padding:0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #353436;
+    height: 125px;
+}
+
+.container {
+    width: 1243px;
+    margin: 0 auto;
+}
+
+.reservation {
+    float: right;
+}
+
+.reservation a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white;
+    float: right;
+}
+
+#wrap{
+    display: none;
+    opacity: 0.5;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 16px;
+    background-color: white;
+    z-index: 100;
+    overflow: auto;
+}
+
+#window{
+    width: 594px;
+    height: 350px;
+    margin: 50px auto;
+    display: block;
+    background: #353436;
+    z-index: 200;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 16px;
+}
+
+.popup a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+color: white;
+}
+
+.close {
+float: right;
+filter: brightness(100);
+
+}
+
+.BLOK:last-child {
+    float:right;
+}
+
+.BLOK:nth-last-child(2){
+    float:left;
+}
+
+
+.reservation a:hover {
+    color:#e2d1a6;
+}
+
+.logo {
+    margin-top: 20px;
+    float: left;
+}
+
+nav {
+    margin-top: 85px;
+}
+
+
+#menu {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+#menu li {
+    float: left;
+    display: block;
+    margin-right: 24px;
+}
+
+
+#menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: white;
+}
+
+#menu li:hover>a { color:#e2d1a6 ; background: #353436 ; }
+
+
+#menu ul {
+    position: absolute;
+    top: 130px;
+    width: 145px;
+    background:  #353436;
+    display: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#menu ul:after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom: 100%;
+  left: 2px;
+}
+
+#menu ul:before {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom: 100%;
+  left: 4px;
+}
+
+#menu ul li {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+}
+
+#menu ul li a {
+  display: block;
+  width: 100%;
+  padding: 7px 7px;
+  line-height: 1.4em;
+  border-bottom-style: groove;
+  border-bottom-color: #e2d1a6;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+
+}
+
+.home-container {
+    background-color: blue;
+    padding-bottom:278px;
+    padding-top: 247px;
+    padding-left: 740px;
+}
+
+
+
+.furnuture {
+    padding: 25px 25px 25px 25px;
+    margin-left: 29px;
+    background-color: white;
+    opacity: 0.8;
+    width: 530px;
+    margin-right: auto;
+    }
+
+.furnuture h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.furnuture h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.knopka {
+position: relative;
+background-color: white;
+margin-top: 350px;
+
+}
+
+.services__item {
+    width: 180px;
+    float: left;
+    text-align: center;
+    color: white;
+}
+
+h3  {
+    font-family: 'Playfair Display', serif;
+    font-size: 14;
+    text-transform: uppercase;
+}
+
+.services__item {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+
+.services__item:last-child {
+    float:right;
+    margin-right: 156px;
+    margin-bottom: 35px;
+}
+
+.services__item:nth-last-child(4){
+    margin-left: 156px;
+}
+
+.services__item:nth-last-child(2){
+    margin-left: 70px;
+}
+
+.services__item:nth-last-child(3){
+    margin-left: 70px;
+}
+
+
+.social p {
+
+    color: white;
+    }
+
+.button {
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    padding-left: 57px;
+    padding-right: 57px;
+    border-style: none;
+}
+
+.input {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 12px;
+    padding-right: 65px;
+}
+
+footer  {
+    background-color: #353436;
+}

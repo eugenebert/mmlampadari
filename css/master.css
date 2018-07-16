@@ -1,0 +1,190 @@
+body {
+    padding:0;
+    margin: 0;
+    background-color: #353436;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+header {
+    background color: #353436;
+    height: 125px;
+}
+
+.container {
+    width: 1243px;
+    margin: 0 auto;
+}
+
+.reservation {
+    float: right;
+}
+
+.reservation a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white;
+    float: right;
+}
+
+.reservation a:hover {
+    color:#e2d1a6;
+}
+
+.logo {
+    margin-top: 20px;
+    float: left;
+}
+
+nav {
+    margin-top: 85px;
+}
+
+
+#menu {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+#menu li {
+    float: left;
+    display: block;
+    margin-right: 24px;
+}
+
+
+#menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: white;
+}
+
+#menu li:hover>a { color:#e2d1a6 ; background: #353436 ; }
+
+
+#menu ul {
+    position: absolute;
+    top: 130px;
+    width: 145px;
+    background:  #353436;
+    display: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#menu ul:after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom: 100%;
+  left: 2px;
+}
+
+#menu ul:before {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom: 100%;
+  left: 4px;
+}
+
+#menu ul li {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+}
+
+#menu ul li a {
+  display: block;
+  width: 100%;
+  padding: 7px 7px;
+  line-height: 1.4em;
+  border-bottom-style: groove;
+  border-bottom-color: #e2d1a6;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+
+}
+
+.swiper-container {
+    padding-bottom:278px;
+    padding-top: 247px;
+    padding-left: 740px;
+}
+
+
+
+.furnuture {
+    padding: 25px 25px 25px 25px;
+    margin-left: 29px;
+    background-color: white;
+    opacity: 0.8;
+    width: 530px;
+    margin-right: auto;
+    }
+
+.furnuture h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.furnuture h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.services__item {
+    width: 180px;
+    float: left;
+    text-align: center;
+    color: white;
+}
+
+h3  {
+    font-family: 'Playfair Display', serif;
+    font-size: 14;
+    text-transform: uppercase;
+}
+
+.services__item {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+
+.services__item:last-child {
+    float:right;
+    margin-right: 156px;
+    margin-bottom: 35px;
+}
+
+.services__item:nth-last-child(4){
+    margin-left: 156px;
+}
+
+.services__item:nth-last-child(2){
+    margin-left: 70px;
+}
+
+.services__item:nth-last-child(3){
+    margin-left: 70px;
+}
